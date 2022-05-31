@@ -31,4 +31,10 @@
 			<class name="grid.RemoteParallelDockerOnAWSTest" />
 		</classes>
 	</test>
+	<test thread-count="5" name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="grid.RemoteParallelDockerOnAWSTest" />
+		</classes>
+	</test>
 </suite>
