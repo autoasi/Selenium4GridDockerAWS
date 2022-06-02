@@ -57,7 +57,7 @@ public class RemoteParallelDockerOnAWSTest {
 		
 		((MutableCapabilities) cap).setCapability("se:name", method.getName()); // set test name in Grid UI
 		 
-		driver.set(new RemoteWebDriver(new URL("http://18.170.70.88:4444"), cap));
+		driver.set(new RemoteWebDriver(new URL("http://13.40.105.10:4444"), cap));
 
 		getDriver().get("http://google.com");
 		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
